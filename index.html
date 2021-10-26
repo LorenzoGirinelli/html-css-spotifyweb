@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
@@ -13,7 +13,40 @@
 <body>
     <div class="app-wrapper">
         <main>
-            <div class="main-nav"></div>
+            <div class="main-nav">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <!-- Nav Action -->
+                <div class="nav-actions">
+                    <ul class="nav-actions-lyst">
+                        <li><i id="items" class="fas fa-home"></i> Home</li>
+                        <li><i id="items" class="fas fa-search"></i> Cerca</li>
+                        <li><i id="items" class="fas fa-book-open"></i> La tua libreria</li>
+                    </ul>
+                </div>
+                <!-- Playlist -->
+                <div class="nav-playlist">
+                    <h4>PLAYLIST</h4>
+                    <div class="create-playlist">
+                        <i id="plus-grey" class="fas fa-plus"></i>Crea Playlist
+                    </div>
+                    <ul class="playlist-lyst">
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                    </ul>
+                </div>
+                <div class="user">
+                    <div class="app-color"><i id="plus-black" class="fas fa-plus"></i> Installa app</div>
+                    <div class="user-border"><i class="far fa-user"></i> John Doe</div>
+                </div>
+            </div>
             <div class="main-content"></div>
         </main>
         
