@@ -17,6 +17,8 @@ main{
 footer{
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
     /* test */
     background-color: brown;
 }
@@ -151,17 +153,13 @@ h5{
     border-bottom: 2px solid lime;
 }
 /* FOOTER */
-footer{
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-}
+
+/* FOOTER LEFT */
 .footer-row-left{
     width: 13%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: indigo;
 }
 .canzone{
     display: flex;
@@ -184,10 +182,65 @@ footer{
 .autore{
     color: white;
 }
+/* FOOTER CENTER */
 .footer-row-center{
-    width: 40%;
-    background-color: lightblue;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #333333;
 }
+.row-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+    color: white;
+}
+#items-footer-row-center{
+    padding: 0 10px;
+}
+#items-footer-row-center-play{
+    padding: 0 10px;
+    font-size: 30px;
+}
+.song-duration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    color: white;
+}
+.line-song{
+    display: flex;
+}
+.line-song-grey{
+    width: 60px;
+    height: 2px;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+}
+.point{
+    width: 5px;
+    height: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+}
+.point:hover{
+    width: 12px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.line-song-black{
+    width: 280px;
+    height: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+}
+/* FOOTER RIGTH */
 .footer-row-right{
     width: 13%;
     display: flex;
@@ -205,7 +258,7 @@ footer{
 .line-volume-grey{
     width: 30px;
     height: 2px;
-    border: 2px solid grey;
+    border: 2px solid lightgray;
     border-radius: 50px;
 }
 .line-volume-black{
