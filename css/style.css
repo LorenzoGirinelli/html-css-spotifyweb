@@ -20,6 +20,10 @@ footer{
     /* test */
     background-color: brown;
 }
+a{
+    text-decoration: none;
+    color: grey;
+}
 .main-nav{
     float: left;
     width: 250px;
@@ -47,10 +51,6 @@ footer{
 }
 .nav-actions{
     height: 80px;
-}
-.nav-left-lyst{
-    text-decoration: none;
-    color: grey;
 }
 .nav-left-lyst:hover{
     color: white;
@@ -130,4 +130,14 @@ h5{
     padding: 10px 35px;
     border: 1px solid white;
     border-radius: 30px;
+}
+/* nav-main-content */
+.nav-main-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 500px;
+    list-style-type: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
 }
