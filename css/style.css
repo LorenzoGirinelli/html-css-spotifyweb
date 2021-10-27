@@ -38,6 +38,7 @@ footer{
     overflow-y: auto;
     background-color: chocolate;
 }
+/* MAIN NAV */
 .logo{
     align-items: center;
     height: 70px;
@@ -89,6 +90,7 @@ h4{
 .app-color{
     color: grey;
     padding-bottom: 4px;
+    
 }
 .user-border{
     padding-top: 7px;
@@ -96,17 +98,36 @@ h4{
     color: white;
     
 }
+.user-img{
+    width: 23px;
+    height: auto;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 50%;
+    vertical-align: text-bottom;
+}
 #plus-black{
     font-size: 8px;
     padding: 1px;
     border: 1px solid grey;
     border-radius: 50%;
+    vertical-align: middle;
 }
-.fa-user{
-    padding: 4px;
-    border: 1px solid grey;
-    border-radius: 50%;
+/* MAIN CONTENT */
+.main-top{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
-    background-color: gray;
-    vertical-align: top;
+}
+h5{
+    text-transform: uppercase;
+    color: white;
+    font-size: 11px;
+    padding: 10px 35px;
+    border: 1px solid white;
+    border-radius: 30px;
 }
