@@ -48,8 +48,9 @@ footer{
 .nav-actions{
     height: 80px;
 }
-#items{
-    font-size: 21px;
+.items{
+    width: 20px;
+    vertical-align: top;
 }
 .nav-playlist{
     overflow: hidden;
