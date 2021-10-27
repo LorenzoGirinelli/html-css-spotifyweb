@@ -56,6 +56,8 @@ a{
     color: white;
     border-left: 2px solid lime;
     padding-left: 5px;
+    text-align: start;
+    display: inline-block;
 }
 .items{
     width: 23px;
@@ -140,10 +142,44 @@ h5{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
+    white-space: nowrap;
 }
 .lyst-main-content{
     margin-right: 15px;
 }
 .lyst-main-content:hover{
     border-bottom: 2px solid lime;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.footer-row-aside{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    background-color: indigo;
+}
+.dimensione-img-footer{
+    width: 40px;
+    height: auto;
+    margin-left: 8px;
+}
+.footer-left-text{
+    font-size: 14px;
+    padding-left: 10px;
+    color: grey;
+}
+.items-footer-left{
+    text-align: end;
+    color: grey;
+}
+.autore{
+    color: white;
+}
+.footer-row-center{
+    width: 40%;
+    background-color: lightblue;
 }
