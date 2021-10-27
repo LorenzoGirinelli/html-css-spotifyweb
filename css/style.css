@@ -135,9 +135,15 @@ h5{
 .nav-main-content{
     display: flex;
     justify-content: space-between;
-    padding: 10px 500px;
+    padding: 10px 30%;
     list-style-type: none;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
+}
+.lyst-main-content{
+    margin-right: 15px;
+}
+.lyst-main-content:hover{
+    border-bottom: 2px solid lime;
 }
