@@ -156,11 +156,16 @@ footer{
     justify-content: space-between;
     /* align-items: center; */
 }
-.footer-row-aside{
-    width: 15%;
+.footer-row-left{
+    width: 13%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: indigo;
+}
+.canzone{
+    display: flex;
+    align-items: center;
 }
 .dimensione-img-footer{
     width: 40px;
@@ -182,4 +187,30 @@ footer{
 .footer-row-center{
     width: 40%;
     background-color: lightblue;
+}
+.footer-row-right{
+    width: 13%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+    color: grey;
+    background-color: indigo;
+}
+.volume{
+    display: flex;
+    padding-right: 10px;
+}
+.line-volume-grey{
+    width: 30px;
+    height: 2px;
+    border: 2px solid grey;
+    border-radius: 50px;
+}
+.line-volume-black{
+    width: 70px;
+    height: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-end-end-radius: 50px;
 }
