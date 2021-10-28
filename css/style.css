@@ -19,18 +19,21 @@ footer{
     height: 100px;
     display: flex;
     justify-content: space-between;
-    /* test */
-    background-color: brown;
+    background-color: #333333;
 }
 a{
     text-decoration: none;
     color: grey;
 }
+p{
+    color: gray;
+    font-size: 12px;
+}
 .main-nav{
     float: left;
     width: 250px;
     height: 100%;
-    background-color: blueviolet;
+    background-color: black;
     /* padding: 0 8px; */
     font-size: 16px;
     font-weight: bold;
@@ -170,8 +173,9 @@ h5{
 }
 .main-content-song h2{
     color: white;
-    padding: 20px;
+    padding: 20px 0;
 }
+/* song-list */
 .song-list{
     display: flex;
     justify-content: space-between;
@@ -194,6 +198,46 @@ font-size: 14px;
 .song-image h3{
     color: white;
     padding-bottom: 5px;
+}
+/* second-song-list */
+.second-song-list{
+    display: flex;
+}
+.second-song-image{
+    width: 220px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.second-song-image img{
+    width: 220px;
+}
+.second-song-image h3{
+    color: white;
+    padding-bottom: 5px;
+}
+.second-song-image img:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+/* third-song-image */
+.third-song-image{
+    width: 220px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.third-song-image img{
+    width: 220px;
+    border-radius: 50%;
+}
+.third-song-image h3{
+    color: white;
+    padding-bottom: 5px;
+}
+.third-song-image img:hover{
+    background-color: black;
+    opacity: 0.5;
 }
 /* FOOTER */
 
@@ -292,7 +336,6 @@ font-size: 14px;
     font-size: 14px;
     gap: 10px;
     color: grey;
-    background-color: indigo;
 }
 .volume{
     display: flex;
