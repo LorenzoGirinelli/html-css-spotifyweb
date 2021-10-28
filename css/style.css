@@ -212,7 +212,11 @@ h5{
 .hov-player{
     position: relative;
 }
+.hov-player:hover .start{
+    display: block;
+}
 .start{
+    display: none;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -394,7 +398,6 @@ h5{
         float: left;
         width: 40px;
         height: 100%;
-        /* height: calc(100% - 100px); */
         background-color: black;
         font-size: 16px;
         font-weight: bold;
@@ -473,15 +476,15 @@ h5{
         display: flex;
         flex-flow: wrap;
         justify-content: flex-start;
-        gap: 2%;
+        gap: 5%;
     }
     .song-image{
-        width: 160px;
+        width: 240px;
         text-align: center;
         font-size: 14px;
     }
     .song-image img{
-        width: 150px;
+        width: 240px;
     }
     h3{
         font-size: 12px;
@@ -490,21 +493,21 @@ h5{
         font-size: 18px;
     }
     .second-song-image{
-        width: 160px;
+        width: 240px;
         text-align: center;
         font-size: 14px;
     }
     .second-song-image img{
-        width: 160px;
+        width: 240px;
     }
     .third-song-image{
-        width: 160px;
+        width: 240px;
         text-align: center;
         font-size: 14px;
         margin-right: 20px;
     }
     .third-song-image img{
-        width: 160px;
+        width: 240px;
         border-radius: 50%;
     }
 }
@@ -621,4 +624,12 @@ h5{
     height: 2px;
     border: 2px solid rgba(0, 0, 0, 0.7);
     border-end-end-radius: 50px;
+}
+@media screen and (max-width: 599px) {
+    .main-content{
+        width: calc(100% - 40px);
+    }
+    footer{
+        /* width: 70%; */
+    }
 }
