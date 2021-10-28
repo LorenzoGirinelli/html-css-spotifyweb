@@ -209,8 +209,15 @@ h5{
 .song-image img{
     width: 200px;
 }
+.hov-player{
+    position: relative;
+}
 .start{
-    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
     color: white;
 }
 .song-image img:hover{
@@ -425,17 +432,39 @@ h5{
     h4{
         display: none;
     }
+    .user-border{
+        display: none;
+    }
     .user-img{
         display: none;
     }
     .user-img-600{
-        display: block;
+        display: inline-block;
+        width: 23px;
+        height: auto;
+        background-color: grey;
+        border: 1px solid grey;
+        border-radius: 50%;     
+    }
+    .user-600{
+        text-align: center;
+    }
+    .app-color{
+        display: none;
     }
     #plus-black{
         display: none;
     }
     #plus-black-600{
-        display: block;
+        display: inline-block;
+        font-size: 8px;
+        padding: 1px;
+        border: 1px solid grey;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    .plus-600{
+        text-align: center;
     }
     .playlist-lyst{
         display: none;
